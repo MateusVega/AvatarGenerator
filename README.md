@@ -39,19 +39,19 @@ Here's a full Example:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Avatar Generator Example</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Avatar Generator Example</title>
 </head>
 <body>
-<h1>Avatar Generator Example</h1>
-<img id="avatar" alt="Generated Avatar" />
-
-<script src="https://mateusvega.github.io/AvatarGenerator/AvatarGenerator.mjs"></script>
-<script>
-const avatarURL = AvatarGenerator.generateAvatar("Mateus Vega");
-document.getElementById("avatar").src = avatarURL;
-</script>
+ <h1>Avatar Generator Example</h1>
+ <img id="avatar" alt="Generated Avatar" />
+ 
+ <script src="https://mateusvega.github.io/AvatarGenerator/AvatarGenerator.mjs"></script>
+ <script>
+  const avatarURL = AvatarGenerator.generateAvatar("Mateus Vega");
+  document.getElementById("avatar").src = avatarURL;
+ </script>
 </body>
 </html>
 ```
