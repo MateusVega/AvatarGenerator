@@ -34,7 +34,7 @@ Include an <img> tag in your HTML to display the generated avatar:
 ```html
 <img id="avatar" alt="Generated Avatar">
 ```
-Here's a full Example::
+Here's a full Example:
 ```html
 <!DOCTYPE html>
 <html lang="en">
