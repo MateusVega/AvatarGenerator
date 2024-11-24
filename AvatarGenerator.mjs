@@ -41,7 +41,7 @@
             context.fillStyle = this.get_color();
             context.fillRect(0, 0, canvas.width, canvas.height);
 
-            context.font = "bold 100px Assistant";
+            context.font = "bold 100px Arial";
             context.fillStyle = "white";
             context.textAlign = "center";
             context.textBaseline = "middle";
