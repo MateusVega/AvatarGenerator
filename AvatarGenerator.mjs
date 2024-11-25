@@ -49,6 +49,27 @@
 
             return canvas.toDataURL("image/png");
         },
+
+        generateAvatarWithColor: function (text, color) {
+            const canvas = document.createElement("canvas");
+            const context = canvas.getContext("2d");
+
+            const new_text = this.process_name(text);
+
+            canvas.width = 200;
+            canvas.height = 200;
+''
+            context.fillStyle = color;
+            context.fillRect(0, 0, canvas.width, canvas.height);
+
+            context.font = "bold 100px Arial";
+            context.fillStyle = "white";
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.fillText(new_text, canvas.width / 2, canvas.height / 2);
+
+            return canvas.toDataURL("image/png");
+        },
     };
 
     return AvatarGenerator;
