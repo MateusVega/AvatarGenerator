@@ -29,6 +29,15 @@ Use the AvatarGenerator.generateAvatar() method to create an avatar for a given 
  document.getElementById("avatar").src = avatarURL;
 </script>
 ```
+Use the AvatarGenerator.generateAvatarWithColor() method to create an avatar with a specified background color
+
+```html
+<script>
+ const avatarURL = AvatarGenerator.generateAvatarWithColor("Mateus Vega", "#FF5733");
+ document.getElementById("avatar").src = avatarURL;
+</script>
+```
+
 ### 3. Display the Avatar
 Include an <img> tag in your HTML to display the generated avatar:
 ```html
